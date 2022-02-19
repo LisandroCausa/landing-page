@@ -80,7 +80,7 @@ a {
 /*=============================*/
 
 .info {
-    height: 450px;
+    height: 440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +108,7 @@ h2 {
 
 .item img {
     max-width: 180px;
-    border: 2px solid blue;
+    border: 2px solid #3882F6;
     border-radius: 14px;
 }
 
@@ -138,4 +138,56 @@ h2 {
     margin-right: 50px;
     font-size: 23px;
     font-weight: 900;
+}
+
+/*=============================*/
+
+.call-to-action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container {
+    height: 65px;
+    width: 700px;
+    padding: 40px 100px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.call-to-action-container button {
+    height: 36px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.call-to-action-container div h3 {
+    font-size: 20px;
+    margin: 0 0 6px 0;
+}
+
+.call-to-action-container div p {
+    margin: 0;
+}
+
+/*=============================*/
+
+footer {
+    height: 70px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
